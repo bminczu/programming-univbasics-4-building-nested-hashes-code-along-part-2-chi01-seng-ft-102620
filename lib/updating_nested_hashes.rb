@@ -26,6 +26,7 @@ def update_status
 
 
 
+
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   epic_tragedy
 end
@@ -51,7 +52,8 @@ def add_characters
          ]
       }
    }
-
+   epic_tragedy[:additional_characters] << { name: "Prince Escalus" }
+   epic_tragedy[:additional_characters] << { name: "Apothecary" }
    # Write code below that does the following programmatically:
    #
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
